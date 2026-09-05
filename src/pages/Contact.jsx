@@ -22,7 +22,7 @@ const Contact = () => {
             <div>
               <i className="fa fa-home"></i>
               <span>
-                <h5>MUSLIM MOR NEAR CANAL STATION</h5>
+                <h5>123 CAMPUS ROAD</h5>
                 <p>LAHORE, PUNJAB, PAKISTAN</p>
               </span>
             </div>
@@ -30,7 +30,7 @@ const Contact = () => {
             <div>
               <i className="fa fa-phone"></i>
               <span>
-                <h5>+923466523938</h5>
+                <h5>+92 300 0000000</h5>
                 <p>MONDAY TO FRIDAY, 11AM TO 11PM</p>
               </span>
             </div>
@@ -38,7 +38,7 @@ const Contact = () => {
             <div>
               <i className="fa fa-envelope-o"></i>
               <span>
-                <h5>gkaoun2@gmail.com</h5>
+                <h5>info@example.com</h5>
                 <p>EMAIL US YOUR QUERY</p>
               </span>
             </div>

@@ -1,8 +1,47 @@
-# React + Vite
+# Institute Landing Site — React Router Practice
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-page marketing/informational website for a (fictional) educational institute, built to practice client-side routing, component composition, and responsive layout with React Router and Bootstrap.
 
-Currently, two official plugins are available:
+**Live demo:** deployed via Firebase Hosting (see `.firebaserc` for project config)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Pages
+
+- **Home** — hero banner, course highlights
+- **About** — institute overview
+- **Course** — programs offered
+- **Blog** — articles listing
+- **Contact** — location map (Google Maps embed) + contact form
+- **404** — custom not-found page
+
+## Tech Stack
+
+- React 18 + Vite
+- React Router DOM (client-side routing across all pages)
+- React Bootstrap + Bootstrap 5 for layout/styling
+- Firebase (Hosting/Analytics)
+
+## Getting Started
+
+```bash
+git clone https://github.com/m-aoun/reactmyproject.git
+cd reactmyproject
+npm install
+npm run dev
+```
+
+Open the local URL Vite prints (defaults to [http://localhost:5173](http://localhost:5173)).
+
+### Build & Preview
+
+```bash
+npm run build
+npm run preview
+```
+
+## Note
+
+This is a practice/learning project — content (course descriptions, contact details) is placeholder text, and the contact form is not wired to a live backend. It was built to work through component structure and routing patterns for a multi-page site.
+
+## Author
+
+**Muhammad Aoun Shabbir** — [GitHub](https://github.com/m-aoun)
